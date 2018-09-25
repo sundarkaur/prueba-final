@@ -27,7 +27,7 @@ la primera etapa es hacer un bosquejo a mano de como yo quiero que sea la págin
 #  Contacto:
     --------
 ## - Nombre Desarrollador: Pamela Molina
-## - github: MIXSYPADILLA
+## - github: sundarkaur
 ## - Repositorio Examen: https://github.com/sundarkaur/prueba-final.git
 ## - e-mail: pamesundarkaur@gmail.com 
 

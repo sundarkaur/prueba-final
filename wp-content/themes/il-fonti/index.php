@@ -152,13 +152,13 @@
   </div><!-- col -->
 
   <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-    <img src="<?php echo get_theme_file_uri() ?>/assets/img//platos/polenta_frita.jpg" width="100%">
+    <img id="danubio" src="<?php echo get_theme_file_uri() ?>/assets/img//platos/insalatta_danubio.jpg" width="100%">
   </div><!-- col-md-3 -->
 </div><!-- row -->
 
 <div class="row">
     <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-      <img src="<?php echo get_theme_file_uri() ?>/assets/img/platos/peperonata.jpg" width="100%">
+      <img id="pilarre" src="<?php echo get_theme_file_uri() ?>/assets/img/platos/insalatta_pilarre.jpg" width="100%">
     </div><!-- col-md-3 -->
     <div class="col-12 col-sm-12 col-md-6 col-lg-6">
       <h5 id="menu-2"> INSALATTA PILARRE
@@ -177,7 +177,7 @@
   </div><!-- col-md-3 -->
 
   <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-    <img src="<?php echo get_theme_file_uri() ?>/assets/img/platos/peperonata.jpg" width="100%">
+    <img src="<?php echo get_theme_file_uri() ?>/assets/img/platos/insalatta_andree.jpg" width="100%">
   </div><!-- col-md-3 -->
 </div><!-- row -->
 

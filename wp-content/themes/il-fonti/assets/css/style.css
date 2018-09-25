@@ -1,30 +1,37 @@
 body{
-	background-color: black;
+  background-color: black;
 }
 .linea{
-	height: 10px;
-	background-color: #cc1924;
+  height: 10px;
+  background-color: #cc1924;
 }
 #logo-1{
-	width: 300px;
-	height: 60px;
+  width: 300px;
+  height: 60px;
+  margin-left: 180px;
 }
+
 .nav-link{
-	border-style: solid;
-	border-color: black;
-	background-color:  #cc1924;
-	color: white;
-	font-family: 'Oswald', sans-serif;
-}
+  border-style: solid;
+  border-color: black;
+  background-color:  #cc1924;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  }
+.bg-light{
+  border: solid;
+  border-color:  #cc1924;
+  border-width: 8px;
+}  
 .main{
-	background-image: url(../img/sitio/principal.jpeg);
-	}
+  background-image: url(../img/sitio/principal.jpeg);
+  }
 #logo-2{
-	width: 500px;
-	margin:10px auto;
-	display: block;
-	padding-top: 150px;
-    filter: drop-shadow(5px 5px 10px black);
+  width: 500px;
+  margin:10px auto;
+  display: block;
+  padding-top: 150px;
+  filter: drop-shadow(5px 5px 10px black);
 
 }
 #titulo-1{
@@ -41,14 +48,14 @@ body{
     padding-bottom: 100px;    
 }
 #texto-nosotros{
-	margin-bottom: 70px;
-	text-align: center;
+    margin-bottom: 70px;
+    text-align: center;
     color: #A4A4A4;
     font-size: 30px;
-	font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 #titulo-2{
-	font-family: 'Archivo Black', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
     text-align: center;
     color:  #cc1924;
     margin-top: 90px;
@@ -56,45 +63,55 @@ body{
     float: left;
 }
 #cubierto{
-	margin-left: 90px;
+  margin-left: 90px;
 }
 #menu{
-	color: #A4A4A4;
+  color: #A4A4A4;
   margin-top: 10px;
 }
 
 #texto-menu{
-	color: #A4A4A4;
+  color: #A4A4A4;
 }
 
 #menu-2{
-	font-family: 'Oswald', sans-serif;
-	color: #A4A4A4;
-	margin-top: 80px;
+  font-family: 'Oswald', sans-serif;
+  color: #A4A4A4;
+  margin-top: 80px;
 }
 #abajo{
-	position: absolute;
-	margin-left: 200px;
-	margin-top: 220px;
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 220px;
 }
 #encima{
-	position: relative;
+  position: relative;
 }
 
 
 #nosotros-0{
-	filter: grayscale(100%);
+  filter: grayscale(100%);
  
--webkit-filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
  
    transition:filter 0.4s;
  
--webkit-transition:-webkit-filter 1s;
+  -webkit-transition:-webkit-filter 1s;
+
+}
+#nosotros-01{
+  filter: grayscale(100%);
+ 
+  -webkit-filter: grayscale(100%);
+ 
+   transition:filter 0.4s;
+ 
+  -webkit-transition:-webkit-filter 1s;
 
 }
 #nosotros-1{
-	margin-top: 40px;
-	filter: grayscale(100%);
+  margin-top: 40px;
+  filter: grayscale(100%);
  
 -webkit-filter: grayscale(100%);
  
@@ -103,7 +120,17 @@ body{
 -webkit-transition:-webkit-filter 1s;
  
 }
+
+
 #nosotros-0:hover {
+ 
+filter: grayscale(0);
+ 
+-webkit-filter: grayscale(0);
+ 
+}
+
+#nosotros-01:hover {
  
 filter: grayscale(0);
  
@@ -121,7 +148,7 @@ filter: grayscale(0);
 
 
 #texto-2{
-	font-family: 'Archivo Black', sans-serif;
+  font-family: 'Archivo Black', sans-serif;
     text-align: center;
     color: #A4A4A4;
 
@@ -137,16 +164,16 @@ filter: grayscale(0);
 }
 
 #efecto-1{
-	background-image: url(../img/platos/zuppa_di_chef.jpg);
-	width: 500px;
-    height: 330px;
-    margin-bottom: 90px;
-    margin-left: 35px;
+  background-image: url(../img/platos/zuppa_di_chef.jpg);
+  width: 500px;
+  height: 330px;
+  margin-bottom: 90px;
+  margin-left: 35px;
 }
 #info{
-	overflow-y: hidden;
-	position: absolute;
-	width: 500px;
+  overflow-y: hidden;
+  position: absolute;
+  width: 500px;
     height: 330px;
     background-color: rgba(31, 31, 31, 0.9);
     opacity: 0;
@@ -169,11 +196,11 @@ filter: grayscale(0);
    -webkit-transition:margin 0.4s;
 }
 #efecto:hover #info{
-	opacity: 1;
+  opacity: 1;
 
 }
 #efecto-1:hover #info{
-	opacity: 1;
+  opacity: 1;
 }
 #efecto:hover #menu-3{
    margin-left: 70px;
@@ -193,13 +220,13 @@ filter: grayscale(0);
 
 
 #margherita{
-	background-image: url(../img/platos/marguerita.jpg);
+  background-image: url(../img/platos/marguerita.jpg);
     width: 500px;
     height: 330px;
     margin-bottom: 90px;
 }
 #margherita:hover #info{
-	opacity: 1;
+  opacity: 1;
 }
 #margherita:hover #menu-3{
    margin-left: 70px;
@@ -211,14 +238,14 @@ filter: grayscale(0);
 
 
 #marinara{
-	background-image: url(../img/platos/marinara.jpg);
+  background-image: url(../img/platos/marinara.jpg);
     width: 500px;
     height: 330px;
     margin-bottom: 90px;
     margin-left: 35px;
 }
 #marinara:hover #info{
-	opacity: 1;
+  opacity: 1;
 }
 #marinara:hover #menu-3{
    margin-left: 70px;
@@ -230,13 +257,13 @@ filter: grayscale(0);
 
 
 #caprissiosa{
-	background-image: url(../img/platos/caprissiosa.jpg);
+  background-image: url(../img/platos/caprissiosa.jpg);
     width: 500px;
     height: 330px;
     margin-bottom: 90px;
 }
 #caprissiosa:hover #info{
-	opacity: 1;
+  opacity: 1;
 }
 #caprissiosa:hover #menu-3{
    margin-left: 70px;
@@ -247,14 +274,14 @@ filter: grayscale(0);
 
 
 #cinque{
-	background-image: url(../img/platos/cinque_formaggi.jpg);
+  background-image: url(../img/platos/cinque_formaggi.jpg);
     width: 500px;
     height: 330px;
     margin-bottom: 90px;
     margin-left: 35px;
 }
 #cinque:hover #info{
-	opacity: 1;
+  opacity: 1;
 }
 #cinque:hover #menu-3{
    margin-left: 70px;
@@ -265,13 +292,13 @@ filter: grayscale(0);
 
 
 #infusiones{
-	background-image: url(../img/platos/infusiones.jpg);
+  background-image: url(../img/platos/infusiones.jpg);
     width: 500px;
     height: 330px;
     margin-bottom: 90px;
 }
 #infusiones:hover #info{
-	opacity: 1;
+  opacity: 1;
 }
 #infusiones:hover #menu-3{
    margin-left: 70px;
@@ -281,14 +308,14 @@ filter: grayscale(0);
 }
 
 #cafe{
-	background-image: url(../img/platos/espresso.jpg);
+  background-image: url(../img/platos/espresso.jpg);
     width: 500px;
     height: 330px;
     margin-bottom: 90px;
     margin-left: 35px;
 }
 #cafe:hover #info{
-	opacity: 1;
+  opacity: 1;
 }
 #cafe:hover #menu-3{
    margin-left: 70px;
@@ -299,13 +326,13 @@ filter: grayscale(0);
 
 
 #latte{
-	background-image: url(../img/platos/latte.jpg);
+  background-image: url(../img/platos/latte.jpg);
     width: 500px;
     height: 330px;
     margin-bottom: 90px;
 }
 #latte:hover #info{
-	opacity: 1;
+  opacity: 1;
 }
 #latte:hover #menu-3{
    margin-left: 70px;
@@ -315,14 +342,14 @@ filter: grayscale(0);
 }
 
 #moccaccino{
-	background-image: url(../img/platos/moccaccino.jpg);
+  background-image: url(../img/platos/moccaccino.jpg);
     width: 500px;
     height: 330px;
     margin-bottom: 90px;
     margin-left: 35px;
 }
 #moccaccino:hover #info{
-	opacity: 1;
+  opacity: 1;
 }
 #moccaccino:hover #menu-3{
    margin-left: 70px;
@@ -333,13 +360,13 @@ filter: grayscale(0);
 
 
 #agua{
-	background-image: url(../img/platos/agua_mineral.jpg);
+  background-image: url(../img/platos/agua_mineral.jpg);
     width: 500px;
     height: 330px;
     margin-bottom: 90px;
 }
 #agua:hover #info{
-	opacity: 1;
+  opacity: 1;
 }
 #agua:hover #menu-3{
    margin-left: 70px;
@@ -350,14 +377,14 @@ filter: grayscale(0);
 
 
 #bebida{
-	background-image: url(../img/platos/bebidas.jpg);
+  background-image: url(../img/platos/bebidas.jpg);
     width: 500px;
     height: 330px;
     margin-bottom: 90px;
     margin-left: 35px;
 }
 #bebida:hover #info{
-	opacity: 1;
+  opacity: 1;
 }
 #bebida:hover #menu-3{
    margin-left: 70px;
@@ -368,71 +395,188 @@ filter: grayscale(0);
 
 
 .fab{
-	color: #cc1924;
-	font-size: 40px;
-	margin-left: 10px;
+  color: #cc1924;
+  font-size: 40px;
+  margin-left: 10px;
 }
 .fa-envelope{
-	color: #cc1924;
-	font-size: 40px;
-	margin-left: 30px;
+  color: #cc1924;
+  font-size: 40px;
+  margin-left: 30px;
 }
 
 .fa-map-marker-alt{
-	color: #cc1924;
+  color: #cc1924;
 }
 .fa-phone{
-	color: #cc1924;
+  color: #cc1924;
 }
 form{
-	margin-top: 70px;
-	margin-bottom: 70px;
-	border-radius: 3%;
-	border: solid;
-	border-color:  #cc1924;
-	border-width: 4px;
-	padding: 50px 50px 50px 50px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  border-radius: 3%;
+  border: solid;
+  border-color:  #cc1924;
+  border-width: 4px;
+  padding: 50px 50px 50px 50px;
 }
 .logo-fin{
-	float: left;
-	margin-left: 90px;
+  float: left;
+  margin-left: 10px;
 
 }
 #end{
-	float: left;
-	margin-left: 20px;
-	margin-top: 25px;
-	color: #A4A4A4;
-	font-size: 20px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 25px;
+  color: #A4A4A4;
+  font-size: 20px;
 }
 #fin{
-	float: left;
-	margin-left: 40px;
-	margin-top: 25px;
-	color: #A4A4A4;
-	font-size: 20px;
+  float: left;
+  margin-left: 40px;
+  margin-top: 25px;
+  color: #A4A4A4;
+  font-size: 20px;
 }
 #logo-reserva{
-	width: 500px;
-	display: block;
-	padding-top: 150px;
-  filter: drop-shadow(5px 5px 10px black);
+  width: 500px;
+  display: block;
+  padding-top: 150px;
+    filter: drop-shadow(5px 5px 10px black);
 }
 
 #hora{
-	color: #A4A4A4;
+  color: #A4A4A4;
     font-family: 'Oswald', sans-serif;
     margin-bottom: 40px;
 }
 iframe{
-	margin-top: 30px;
-	border-radius: 2%;
-	border: solid; 
-	border-color:  #cc1924;
-	border-width: 4px;
+  margin-top: 30px;
+  border-radius: 2%;
+  border: solid; 
+  border-color:  #cc1924;
+  border-width: 4px;
 }
 #copy{
+  text-align: center;
+}
 
-	text-align: center;
 
+
+
+
+
+@media (max-width: 460px){
+  #nosotros-0{
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 460px){
+  
+  #logo-1{
+    display: none;
+  }
+}
+
+@media (max-width: 460px){
+  
+  #danubio{
+    margin-bottom: 80px;
+  }
+}
+
+
+@media (max-width: 460px){
+  .fab{ 
+    margin-right: 100px; 
+  }
+}
+
+@media (max-width: 460px){
+  .nav-link{ 
+   width: 80px;
+   font-size: 10px; 
+
+  }
+}
+
+@media (max-width: 460px){
+  #logo-2{ 
+   width: 300px;
+  }
+}
+
+@media (max-width: 460px){
+  #titulo-1{
+    padding-top: 10px;
+    font-size: 40px;
+    background-color: white;
+  }
+ 
+}
+
+@media (max-width: 460px){
+  #texto-1{
+     font-size:20px;
+     padding-bottom: 10px;
+     padding-top: 10px;
+     padding-bottom: 100px;
+     color:  #cc1924;
+  }
+ 
+}
+
+@media (max-width: 460px){
+  #efecto-1{ 
+   margin-left: 0px;
+  }
+}
+
+@media (max-width: 460px){
+  #marinara{ 
+   margin-left: 0px;
+  }
+}
+
+@media (max-width: 460px){
+  #cinque{ 
+   margin-left: 0px;
+  }
+}
+
+@media (max-width: 460px){
+  #cafe{ 
+   margin-left: 0px;
+  }
+}
+
+@media (max-width: 460px){
+  #moccaccino{ 
+   margin-left: 0px;
+  }
+}
+
+@media (max-width: 460px){
+  #bebida{ 
+   margin-left: 0px;
+  }
+}
+
+@media (max-width: 460px){
+  #marinara{ 
+   margin-left: 0px;
+  }
+}
+@media (max-width: 460px){
+  #logo-reserva{ 
+   width: 300px;
+  }
+}
+
+@media (max-width: 460px){
+  #titulo-2{ 
+   margin-bottom: 1px;
+  }
 }
