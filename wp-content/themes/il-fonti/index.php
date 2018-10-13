@@ -17,7 +17,9 @@
 
 
 
+
 <div  id="nosotros" class="row">
+
     <div class="col-md-12">
       <div class="container">
           <h3 id="titulo-2"> NOSOTROS </h3>         
@@ -26,15 +28,34 @@
 </div><!-- row -->
 
 <div  id="nosotros" class="row">
+
+   <?php
+    $arg = array(
+      'post_type'       => 'about',
+      'posts_per_page'  => 1
+    );
+
+    $get_arg = new WP_Query( $arg );
+
+    while ( $get_arg->have_posts() ) {
+      $get_arg->the_post();
+      ?>
+
     <div class="col-md-12">
       <div class="container">
-          <p id="texto-nosotros"><br>Restaurante con lo mejor de la gastronomía Italiana.</br> 
-          <br>Ubicados en Providencia. </br>
-          <br>Tenemos variados platos para tu elección: </br>
-          <br>Antipastos - Ensaladas - Sopas - Pizzas - Postres - Infusiones - Bebidas </br></p>
+          <?php the_post_thumbnail('full', array('id' => 'cubierto')) ?>
+          <p id="texto-nosotros"> <?php the_content() ?></p>
       </div><!-- container -->
     </div><!-- col-md-12 -->
+
+
+  <?php } wp_reset_postdata();
+   ?>
+
 </div><!-- row -->
+
+
+
 
 
 <div class="container">
@@ -63,9 +84,7 @@
              <hr class="linea">
             </div>
 
-
-
-                <h2 id="titulo-2">NUESTRAS ESPECIALIDADES </h2>
+                <h3 id="titulo-2">NUESTRAS ESPECIALIDADES </h3>
                 <img id="cubierto" src="<?php echo get_theme_file_uri() ?>/assets/img/sitio/cubierto-negro.jpg">
 
             <hr class="linea">
