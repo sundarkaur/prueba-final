@@ -1,4 +1,4 @@
-#PROYECTO FINAL
+#PRUEBA FINAL
 
 ##será una página web (One page), creada para el Restaurant Il Fonti Di Modena.
 
@@ -73,3 +73,14 @@ la primera etapa es hacer un bosquejo a mano de como yo quiero que sea la págin
 ###  Datos de contacto.
 ###  Mapa de ubicacion del Restaurant.
 ###  links que redireccionan a sitios de redes sociales reales del Restaurant.
+
+
+
+## URL de la Prueba final:
+###  http://186.64.118.50/~mppmolina/prueba
+
+
+## Usuario Wordpress:
+### modena_2018
+## Clave:
+### GcIXjNtutOV^MtpSx7
